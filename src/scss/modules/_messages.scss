@@ -1,0 +1,17 @@
+.mat-dialog-title {
+	display: flex !important;
+	justify-content: space-between;
+	align-items: center;
+	font-family: $font;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.modal-title {
+	display: flex;
+	font-weight: 700;
+	.mat-icon {
+	@include size(30px);
+	margin: 4px 10px 0 0;
+	font-size: 30px;
+	}
+}
